@@ -1,0 +1,29 @@
+.container {
+    background-color: black;
+    width: 80px;
+    height: 625px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 10px 14px 20px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: fixed;
+}
+
+.h1 {
+    color: white;
+    margin-bottom: 50px;
+}
+
+.img {
+    padding: 5px 0;
+    filter: opacity(0.8);
+}
+
+.img,h1:hover {
+    cursor: pointer;
+}
+
+.logout {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,77 @@
+.userData {
+    background-color: #F5F5F7;
+    display: flex;
+    border-radius: 15px;
+    height: 150px;
+    margin-top: 20px;
+    justify-content: space-around;
+    line-height: 10px;
+}
+
+.username {
+    margin-top: 50px;
+}
+
+.profileImg {
+    height: 180px;
+    filter: opacity(1);
+    margin-top: -30px;
+}
+
+.language {
+    background-color: #F5F5F7;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px;
+    height: 70px;
+    text-align: left;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.language > div {
+    padding: 15px 10px;
+}
+
+.flag {
+    height: 45px;
+}
+
+.continueButton {
+    background-color: black;
+    color: white;
+    outline: none;
+    border: 0;
+    height: 100%;
+    width: 100px;
+    border-radius: 8px;
+}
+
+.continueButton:hover {
+    cursor: pointer;
+}
+
+.arrowButton {
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 0 10px;
+    width: 50px;
+}
+
+.arrowButton:hover {
+    cursor: pointer;
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    height: 50px;
+}
